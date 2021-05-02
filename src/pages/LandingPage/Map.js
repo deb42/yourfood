@@ -6,7 +6,6 @@ import GoogleMapReact from 'google-map-react';
 const Map = (props) => {
 
     const [partner, setPartner] = useState([]);
-    console.log(process.env.REACT_APP_GOOGLE_MAPS_API_KEY)
 
     React.useEffect(() => {
         const fetchData = async () => {
